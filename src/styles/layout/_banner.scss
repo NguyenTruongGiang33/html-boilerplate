@@ -1,0 +1,18 @@
+.banner-container{
+    .container-banner{
+        position: relative;
+        .banner-image{
+            img{
+                width:100%;
+            }
+        }
+        .page-banner-text-center{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            
+        }
+    }
+}
